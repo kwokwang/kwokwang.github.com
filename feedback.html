@@ -56,6 +56,19 @@ main {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+animation: x 1s ease-in-out alternate;
+    
+}
+
+@keyframes x {
+  from {
+    transform: translateY(-100%);
+    opacity:0.5;
+  }
+  to {
+    transform: translateY(0);
+    opacity:1;
+  }
 }
 
 form {
