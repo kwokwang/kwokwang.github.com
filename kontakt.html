@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kontakt</title>
+
+    </head>
+
+    <body>
+        <form action="http://formsubmit.co/kwokwangrestaurang@gmail.com" method="POST">
+            <h2>Kontakta oss</h2>
+            
+            <label for="name">Namn:</label>
+            <input type="text" id="name" name="name" required>
+            <input type="hidden" name="_next" value="http://127.0.0.1:3000/Thankyou2.html">
+
+            <input type="hidden" name="_subject" value="New submission!">
+
+            <input type="hidden" name="_blacklist" value="spammy pattern, banned term, phrase">
+
+            <input type="text" name="_honey" style="display:none">
+
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          
+            <label for="phone">Telefonumer:</label>
+            <input type="tel" id="phone" name="phone" required>
+          
+            <label for="message">Medelande:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Klar</button>
+          </form>
+          
+    </body>
+
+    <style>
+    
+    form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "STKaiti", "SimSun", serif; /* Use a traditional Chinese font */
+  background-color: #F7EEE6; /* Use a warm color scheme */
+  animation: myAnimation6 1s ease-in-out alternate;
+  
+}
+ 
+@keyframes myAnimation6 {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+form h2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #CD8C5C; /* Use a dark orange color for the title */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25); /* Add a subtle text shadow */
+}
+
+
+form label {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #5D5D5D; /* Use a muted color for the labels */
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 2px solid #CD8C5C; /* Use a darker shade of orange for the borders */
+  background-color: transparent; /* Use a transparent background */
+  font-size: 18px;
+  color: #5D5D5D; /* Use a muted color for the text */
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none; /* Remove the default focus outline */
+  border-bottom: 2px solid #E68A2E; /* Use a brighter shade of orange for the focused borders */
+}
+
+form button[type="submit"] {
+  background-color: #CD8C5C; /* Use a darker shade of orange for the button */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px; /* Use a rounded button */
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+form button[type="submit"]:hover {
+  background-color: #E68A2E; /* Use a brighter shade of orange for the hovered button */
+}
+
+form input:invalid,
+form textarea:invalid {
+  border-bottom: 2px solid #F44336; /* Use a red color for invalid input fields */
+}
+
+form input:invalid:focus,
+form textarea:invalid:focus {
+  border-bottom: 2px solid #D32F2F; /* Use a brighter red color for focused invalid input fields */
+}
+
+
+    </style>
+</html>

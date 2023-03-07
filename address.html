@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+	<meta charset="UTF-8">
+	<title>Adresssida</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Adresssida</h1>
+	</header>
+	<main>
+		<section class="adress">
+			<h2>Adressuppgifter</h2>
+			<p>Wisengrensplatsen 8<br>
+			Hisingen<br>
+			Göteborg <br>TEL: 0708768103 <br>Postnumer: 41739	<br> Google maps: <a href="https://www.google.com/maps/place/Wieselgrensplatsen+8,+417+17+G%C3%B6teborg/@57.7215377,11.9350727,17z/data=!3m1!4b1!4m6!3m5!1s0x464ff4abc8314317:0xa58a9c36dccd6580!8m2!3d57.7215377!4d11.9350727!16s%2Fg%2F11c5ps_xrb">Address</Address></a></p>
+            
+
+
+		</section>
+		
+
+		</section>
+		<section class="bild">
+			<img src="lunarnewyearfestival.jpg" alt="Kinesiskt nyår">
+		</section>
+		<section class="adress">
+			<h2>Öppentider</h2>
+			<h3>Måndag-Torsdag<h3>
+			<p>14:00-22:00</p>
+			
+			<h3>Fredag-Söndag</h3>
+			<p>12:00-22:00</p>
+            
+
+	</main>
+	<footer>
+		<p>&copy; 2023 Alla rättigheter reserverade.</p>
+	</footer>
+</body>
+
+<style>
+    body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #F6F6F6;
+}
+
+header {
+	background-color: #DC143C;
+	color: #FFF;
+	padding: 20px;
+	text-align: center;
+	animation: myAnimation3 1s ease-in-out alternate;
+  
+}
+ 
+@keyframes myAnimation3 {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+
+h1 {
+	margin: 0;
+	font-size: 36px;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 50px 100px;
+	animation: myAnimation2 2s ease-in-out alternate;
+  
+}
+ 
+@keyframes myAnimation2 {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.adress {
+	flex-basis: 40%;
+	background-color: #FFF;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.adress h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.adress p {
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+.bild {
+	flex-basis: 55%;
+	text-align: center;
+}
+
+.bild img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+footer {
+	background-color: #DC143C;
+	color: #FFF;
+	padding: 10px;
+	text-align: center;
+	font-size: 14px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+</style>
+</html>

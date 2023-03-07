@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kwok Wang Chinese Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Kwok Wang Kinesiskt resturang</h1>
+      <nav>
+        <ul>
+          <li> <a id="home-page" href="index.html">Hem</a></li>
+          <li><a id="menu-page" href="menu.html">Meny</a></li>
+          <li><a id="address-page"href="address.html">Addressinfo</a></li>
+          <li><a id="help-page" href="help.html">Hjälp</a></li>
+          <li><a id="contact-page"href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <div id="overlay">
+      <div class="spinner"></div>
+    </div>
+
+       <br> <h2 class="welcome-header">Välkommen till Kwok Wang!</h2>
+        <div class="restaurant-info">
+          <p>Kwok Wang är en kinesisk restaurang som erbjuder den mest autentiska maten från Kina. Våra kockar använder bara de finaste och färskaste ingredienserna för att tillaga våra rätter. Vi är stolta över att erbjuda den bästa kinesiska maten i Göteborg!</p>
+          <p>Kom och upplev vår varma gästfrihet och den bästa kinesiska maten. Vi har något för alla, från våra signaturrätter till vegetariska alternativ. Besök oss idag och låt oss ta dig med på en kulinarisk resa!</p>
+        </div>
+
+        <h3 class="welcome-header2">Maten</h3>
+        <div class="restaurant-info">
+            <p>Hos Kwok Wang kan du njuta av en underbar matupplevelse med några av de mest utsökta kinesiska rätterna i Göteborg.</p>
+            <p>Vår meny är full av smaker som garanterat kommer att göra dina smaklökar dansa av glädje! Vi erbjuder ett brett utbud av läckra kinesiska rätter, inklusive vår populära vårrullar - en krispig och fyllig delikatess som garanterat kommer att göra dig salivera vid första tuggan. För en varm och tillfredsställande soppa, prova vår räksoppa - fylld med saftiga räkor och smaksatt med våra hemliga kinesiska kryddor.</p>
+            <p>För att stilla din hunger för huvudrätten, prova vår stekta ris - en välsmakande och fyllig rätt som är en perfekt kombination av krispiga grönsaker och smakfullt ris. Och för den som vill prova något mer kryddigt och smakrikt, rekommenderar vi vår massamann currygryta med kokosmjölk - en autentisk kinesisk rätt som är full av smak och karaktär.</p>
+            <p>Välj din favoriträtt och upplev en smakupplevelse som du sent kommer att glömma. Besök oss på Kwok Wang idag och upptäck varför vi är en av Göteborgs bästa kinesiska restauranger.</p>
+        </div>
+        <h3 class="welcome-header3">leverans</h3>
+        <div class="restaurant-info">
+        <p>Vi på Kwok Wang erbjuder bekväm leverans av våra läckra kinesiska rätter direkt till ditt hem eller kontor. Njut av våra signaturrätter som vårrullar, räksoppa, stekt ris och massamann med currygryta med kokosmjölk i bekvämligheten av ditt eget hem eller på kontoret. All mat är nylagad av våra kockar med de finaste och färskaste ingredienserna för att garantera den bästa smaken.</p>
+          <p>Så varför inte unna dig en smakupplevelse från Kwok Wang utan att ens behöva lämna ditt hem? Besök vår Foodora på <a href="https://www.foodora.se/en/restaurant/x8ro/restaurang-kwok-wang">Kwok Wang Foodora</a> för att beställa och upptäck varför vi är stolta över att erbjuda den bästa kinesiska maten i Göteborg.</p> <br><br>
+        </div>
+
+        
+        <img src="x8ro-hero.webp" class="stekt-ris">
+        <img src="Vårruller-Ida-Maries-mat.jpg" class="vårulle">
+      
+    </main>
+    <footer>
+        <div class="footer-content">
+          <h3>Bli medlem!</h3>
+          <p>Signa up för allting som händer och inte missa något!</p>
+            
+          <form action="https://formsubmit.co/7830a7c4e43a51a2b9ea966f55b1ebed " method="POST" method="name">
+            <input type="hidden" name="_next" value="http://127.0.0.1:3000/tutorial.html">
+            <input type="hidden" name="_autoresponse" value="Hello!">
+             
+            
+
+            <label for="name">namn: </label>
+            <input type="text" name="name" id="name" placeholder="Förnamn och Efternamn" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br><br>
+
+            <button>Subscribe</button>
+          </form>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="kwFontPage.html">Hem</a></li>
+            <li><a href="address.html">Address o öppenteder</li>
+            <li><a href="help.html">Hjälp</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h3>Follow Us</h3>
+          <ul>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </footer>
+      
+  </body>
+<style>
+  
+    .vårulle{
+        margin-top:-950px;
+        height: 270px;
+        width: 380px;
+        float: left;
+
+        animation: vårrule 1s ease-in-out alternate;
+}
+
+@keyframes vårrule {
+  from {
+    transform: translateY(-100%);
+    opacity:0.5;
+  }
+  to {
+    transform: translateY(0);
+    opacity:1;
+  }
+}
+    .stekt-ris{
+        margin-top:-600px;
+        height: 270px;
+        width: 380px;
+        animation: ris 1s ease-in-out alternate;
+        
+}
+
+@keyframes ris {
+  from {
+    transform: translateY(-100%);
+    opacity:0.5;
+  }
+  to {
+    transform: translateY(0);
+    opacity:1;
+  }
+}
+    footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+  height: 300px;
+  animation: fot 1s ease-in-out alternate;
+    animation-play-state: paused;
+}
+
+@keyframes fot {
+  from {
+    transform: translateY(-100%);
+    opacity:0.5;
+  }
+  to {
+    transform: translateY(0);
+    opacity:1;
+  }
+}
+
+
+
+.footer-content {
+  width: 50%;
+  float: left;
+}
+
+.footer-content h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.footer-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.footer-content form {
+  margin-bottom: 20px;
+}
+
+.footer-content input[type="email"] {
+  width: 70%;
+  padding: 10px;
+  border: none;
+  font-size: 18px;
+}
+.footer-content input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  border: none;
+  font-size: 18px;
+  margin-left: 2px;
+ 
+}
+
+
+.footer-content button {
+  background-color: #fff;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  font-size: 18px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.footer-links {
+  width: 20%;
+  float: left;
+}
+
+.footer-links h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-social {
+  width: 30%;
+  float: left;
+}
+
+.footer-social h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.footer-social ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-social li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-social a {
+  color: #fff;
+  font-size: 24px;
+}
+
+.fa-facebook:hover {
+  color: #3B5998;
+}
+
+.fa-twitter:hover {
+  color: #1DA1F2;
+}
+
+.fa-instagram:hover {
+  color: #E1306C;
+}
+
+.fa-linkedin:hover {
+  color: #0077B5;
+}
+
+    img {
+        float: right;
+     width: 23%;
+     margin-left: 20px;
+         margin-top: 0;
+         
+        }
+
+    /* Global styles */
+body {
+font-family: 'Montserrat', sans-serif;
+margin: 0;
+}
+
+
+header {
+background-color: #141414; 
+padding: 20px;
+display: flex;
+height: auto;
+justify-content: space-between;
+align-items: center;
+}
+
+h1 {
+margin: 0;
+font-size: 36px;
+color: #fff;
+text-transform: uppercase; /* Add text transform to uppercase /
+letter-spacing: 2px; / Add letter spacing */
+}
+
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex; /* Add display flex to align navigation links horizontally */
+}
+
+nav li {
+margin-right: 20px;
+}
+
+nav li:last-child {
+margin-right: 0;
+}
+
+nav a {
+text-decoration: none;
+color: #fff;
+font-weight: bold;
+transition: color 0.3s ease-in-out; /* Add transition effect */
+}
+
+nav a:hover {
+color: #e94b3c;
+}
+
+/* Main content styles */
+main {
+padding: 20px;
+}
+
+h2 {
+font-size: 24px;
+color: #333;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+background-color: #141414;
+color: #fff;
+padding: 10px;
+text-align: center;
+}
+
+header {
+  animation: myAnimation 1s ease-in-out alternate;
+}
+
+@keyframes myAnimation {
+  from {
+    transform: translateY(-100%);
+    opacity:0.5;
+  }
+  to {
+    transform: translateY(0);
+    opacity:1;
+  }
+}
+
+
+
+
+
+
+.welcome-header {
+font-size: 36px;
+color: #e94b3c;
+text-align: center;
+margin-bottom: 20px;
+text-transform: uppercase; 
+letter-spacing: 2px; 
+}
+
+.welcome-header2 {
+font-size: 32px;
+color: #e94b3c;
+text-align: center;
+margin-bottom: 20px;
+text-transform: uppercase; 
+}
+.welcome-header3 {
+font-size: 32px;
+color: #e94b3c;
+text-align: center;
+margin-bottom: 20px;
+text-transform: uppercase; 
+}
+
+/* Restaurant info styles */
+.restaurant-info {
+max-width: 800px;
+margin: 0 auto;
+text-align: justify;
+font-size: 20px;
+line-height: 1.5;
+color: #333;
+margin-top: 40px;
+}
+
+.restaurant-info p:first-of-type {
+margin-top: 0;
+}
+
+.restaurant-info p:last-of-type {
+margin-bottom: 0;
+}
+
+
+.foodora-link {
+display: inline-block;
+background-color: #e94b3c;
+color: #fff;
+text-decoration: none;
+padding: 10px 20px;
+border-radius: 5px;
+margin-top: 30px;
+transition: background-color 0.3s ease-in-out; 
+}
+
+.foodora-link:hover {
+background-color: #c9302c;
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.spinner {
+  border: 8px solid rgba(0, 0, 0, 0.3);
+  border-top: 8px solid #fff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+</style>
+
+<script src="animation.js"></script>
+<script src="loading.js"></script>
+<script src="data.js"></script>
+<script src="runningmaneger.js"></script>
+</html>
